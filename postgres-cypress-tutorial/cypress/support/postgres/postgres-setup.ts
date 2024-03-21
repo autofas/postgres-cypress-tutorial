@@ -1,5 +1,5 @@
 import postgres from 'postgres';
-const sql = postgres('postgres://username:password@host,:port/database', {
+const sql = postgres({
     host: 'localhost', // Postgres ip address[s] or domain name[s]
     port: 5432, // Postgres server port[s]
     database: 'postgres', // Name of database to connect to
